@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class BasicsPageComponent {
 
+  public nameLower: string = 'hugo';
+  public nameUpper: string = 'HUGO';
+  public nameTitle: string = 'HuGo HuiChaLaO';
+
+  public customDate: Date = new Date();
+
 }
